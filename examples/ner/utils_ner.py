@@ -204,4 +204,5 @@ def get_labels(path):
             labels = ["O"] + labels
         return labels
     else:
-        return ["O", "B-MISC", "I-MISC", "B-PER", "I-PER", "B-ORG", "I-ORG", "B-LOC", "I-LOC"]
+        # return ["O", "B-MISC", "I-MISC", "B-PER", "I-PER", "B-ORG", "I-ORG", "B-LOC", "I-LOC"]
+        return ["O", "B", "M", "E", "S"]
